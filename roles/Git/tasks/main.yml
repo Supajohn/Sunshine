@@ -1,6 +1,10 @@
-'- name: Pull version from Git
+- name: Pull version from Git
   git:
     repo: https://github.com/Supajohn/Sunshine.git
     dest: /Sunshine
     version: main
     update: yes
+- name: luo tiedosto ansible toimii
+  copy:
+    content: "Ansible ok"
+    dest: /Sunshine/ansible.txt

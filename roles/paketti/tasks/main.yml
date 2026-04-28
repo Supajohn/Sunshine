@@ -1,0 +1,7 @@
+- name: asenna paketit
+  apt:
+    name:
+      - git
+      - curl
+    state: present
+    update_cache: yes

@@ -1,0 +1,3 @@
+- copy:
+    dest: /tmp/hello-world
+    content: "Hello World!"

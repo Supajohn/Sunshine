@@ -1,0 +1,9 @@
+- name: monirivinen tiedosto
+  copy:
+    dest: /tmp/teksti.txt
+    content: |
+      Tekstiä monella rivillä
+      Toimiikohan tämä
+    owner: root
+    group: root
+    mode: "0600"

@@ -1,0 +1,11 @@
+- hosts: all
+  become: yes
+  roles:
+#    - hello_world
+#    - antero
+#    - paketti
+#    - file
+#    - service
+#    - nginx
+#    - vsftpd
+    - Git

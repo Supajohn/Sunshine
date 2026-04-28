@@ -1,0 +1,6 @@
+'- name: Pull version from Git
+  git:
+    repo: https://github.com/Supajohn/Sunshine.git
+    dest: /Sunshine
+    version: main
+    update: yes
